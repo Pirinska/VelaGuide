@@ -45,3 +45,28 @@ button[type="submit"]:hover {
     border-color: white;
     opacity: 0.9;
 }
+
+.surgery-header {
+    cursor: pointer;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.surgery-content {
+    display: none;
+    padding: 0.5rem 1rem;
+}
+
+.arrow-icon {
+    transition: transform 0.3s ease;
+    size: 10 px;
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
+
+
