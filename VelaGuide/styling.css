@@ -69,4 +69,20 @@ button[type="submit"]:hover {
     transform: rotate(180deg);
 }
 
+.checklist {
+    border: 1px solid #000;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form-check {
+    margin-bottom: 20px;
+}
+
+.form-check-input {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+} 
+
 
