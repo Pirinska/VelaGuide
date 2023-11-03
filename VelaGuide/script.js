@@ -13,7 +13,7 @@ $(document).ready(function(){
         }
     });
 });
-
+//checklist interaction
 $(document).ready(function(){
     $('#addNoteBtn').click(function(){
         var noteText = $('#journalInput').val();
@@ -28,6 +28,17 @@ $(document).ready(function(){
         } else {
             alert('Please enter a note.');
         }
+    });
+});
+
+//homepage tabs interaction
+$(document).ready(function(){
+    $('.nav-tabs .nav-link').on('click', function() {
+        $('.nav-tabs .nav-link').removeClass('active');
+        $(this).addClass('active');
+        $('.tab-pane').removeClass('show active');
+        $($(this).attr('href')).addClass('show active');
+        return false;
     });
 });
 
