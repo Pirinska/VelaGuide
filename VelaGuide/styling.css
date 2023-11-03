@@ -1,0 +1,47 @@
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #2F2381;
+    font-style: bold;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; 
+}
+
+input[type="search"]:focus {
+    border-color: #2F2381; 
+    box-shadow: 0 0 0 0.2rem rgba(47, 35, 129, 0.25); 
+    border-color: white;
+}
+
+
+button[type="submit"] {
+    background-color: #2F2381;
+    border-color: #2F2381; 
+    color: white;
+    border-color: white;
+}
+
+
+
+button[type="submit"]:hover {
+    background-color: #2F2381; 
+    color: white;
+    border-color: white;
+    opacity: 0.9;
+}
