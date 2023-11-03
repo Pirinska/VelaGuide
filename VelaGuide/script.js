@@ -13,3 +13,21 @@ $(document).ready(function(){
         }
     });
 });
+
+$(document).ready(function(){
+    $('#addNoteBtn').click(function(){
+        var noteText = $('#journalInput').val();
+        if(noteText) {
+            var noteHtml = `
+                <div class="note">
+                    <p>${noteText}</p>
+                </div>
+            `;
+            $('#notesSection').prepend(noteHtml);
+            $('#journalInput').val('');
+        } else {
+            alert('Please enter a note.');
+        }
+    });
+});
+

@@ -62,7 +62,7 @@ button[type="submit"]:hover {
 
 .arrow-icon {
     transition: transform 0.3s ease;
-    size: 10 px;
+    size: 2 px;
 }
 
 .rotated {
@@ -84,5 +84,36 @@ button[type="submit"]:hover {
     height: 25px;
     margin-right: 10px;
 } 
+
+
+.note {
+    background-color:#F4F4F8;
+    border-color: #F4F4F8;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #2F2381 !important;
+    border-color: #2F2381 !important;
+    color:white !important;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #1b164d !important;
+    border-color: #1b164d !important;
+    color:white !important;
+}
+
+.form-check-input {
+    border-color: #2F2381 !important;
+}
+.form-check-input:checked {
+    background-color: #2F2381 !important;
+    border-color: #2F2381 !important;
+}
+
+
 
 
