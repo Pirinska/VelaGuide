@@ -139,3 +139,24 @@ h1 {
     color: #2F2381 !important;
 }
 
+.background-image {
+    background-image: url('images/background.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
+.custom-input {
+    border-radius: 20px;
+    border: 1px solid #2F2381; /* Custom border color */
+    padding: 10px;
+}
+
+.custom-button {
+    background-color: #2F2381; /* Button background color */
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
