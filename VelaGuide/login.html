@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-lg bg-light sticky-top">
             <div class="container">
                 <img src="images/logomark.png">
-                <a class="navbar-brand" href="#index.html">Vela Guide</a>
+                <a class="navbar-brand" href="#home.html">Vela Guide</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
                                     <a class="nav-link" href="login.html">Login</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="register.html">Register</a>
+                                    <a class="nav-link active" href="index.html">index</a>
                                 </li>
 
                         </form>
@@ -141,7 +141,7 @@
                 
                     const user = userCredential.user;
                     const dt = new Date();
-                    window.location.href = 'index.html';
+                    window.location.href = 'home.html';
                     update(ref(database, 'users/' + user.uid), {
                         last_login: dt,
                         
